@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Pomodoro Timer",
+  "version": "1.0",
+  "description": "A Pomodoro timer that runs in the background with customizable durations and visual alerts",
+  "permissions": ["alarms", "notifications", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.jpg",
+      "48": "icon48.jpg",
+      "128": "icon128.jpg"
+    }
+  },
+  "icons": {
+    "16": "icon16.jpg",
+    "48": "icon48.jpg",
+    "128": "icon128.jpg"
+  }
+}
